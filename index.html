@@ -646,6 +646,52 @@ Experiments and human evaluations demonstrate that GardenDesigner can generate d
 </section>
 <!-- End paper abstract -->
 
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Quantitative Results</h2>
+          <div class="content has-text-justified">
+            <img src="assets/pic/tables.png"/>
+            <p>
+              We evaluate generated Gardens from physical plausibility, structure complexity, semantic coherence, and aesthetic quality. 
+1. Pathway Score (Path-S). Path-S is used to determine whether significant plants and buildings can be reached or viewed along the road.
+2. Class Diversity (Class-Div). Additionally, we also use Class Diversity to measure the object categories' diversity.
+3. Fractal Dimension (FD). We calculate structure complexity. 
+4. CLIP-Score is used to measure the consistency between the generated garden and the instruction. And the garden type prompt template is in the form of ''a top-down view of Jiangnan garden scene feature.'' 
+5. CLIP-Aesthetic is used to evaluate the aesthetic score. 
+6. VLM-Score. We prompt the VLMs to rate the rendered garden image. 
+7.QA-Quality. We also used VLM-based visual scorer Q-Align to evaluate results.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Conclusion</h2>
+          <div class="content has-text-justified">
+            <p>
+              This paper has proposed GardenDesigner, a novel framework that encodes aesthetic principles for Jiangnan garden construction and integrates a chain of agents procedurally.
+By structuring the generation process into hierarchical garden composition and knowledge-embedded asset arrangement, GardenDesigner ensures spatial rationality and aesthetic coherence with Jiangnan garden design principles.
+This integration not only facilitates the creation of authentic garden layouts but also serves as a platform for preserving and exploring classical Chinese landscape architecture in digital contexts. 
+Looking forward, GardenDesigner can be extended to support interactive educational tools, virtual heritage reconstruction, and personalized landscape design, opening new avenues for cultural heritage preservation and creative applications in digital art and games.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
